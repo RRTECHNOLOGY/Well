@@ -1,0 +1,156 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav-enlace{
+    display:inline-block;
+    color:rgb(234, 238, 242);
+    padding:5px 5px;
+    text-decoration:none;
+    margin: 5px;
+    height: 5px;
+}
+nav{
+    background:rgb(84, 82, 82);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    height: 20px;
+}
+.nav-enlace:hover{
+    color:rgb(238, 240, 233);
+    text-decoration: underline;
+}
+.parrafo{
+    background: rgb(24, 16, 16);
+   color:white;
+ 
+  text-align: center;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+.well{
+   
+    display: flexbox;
+    text-align: justify;
+    background-color: black;
+    color:rgb(238, 234, 234)
+}
+.parrafowell{
+    width: 50%;
+    display: flex;
+    
+}
+.flex-container{
+    display: flex;
+}
+.grid{
+    display:grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 5px;
+}
+.grid div{
+    background: rgb(216, 214, 211);
+    
+    padding: 10px;
+}
+.grid div:hover{
+    border: 4px solid rgb(105, 78, 51);
+}
+.caja1{
+    grid-area: 1/1/3/2;
+    
+}
+.caja2{
+    grid-area: 3/1/3/2 ;
+}
+.caja3{
+    grid-area: 1/2/4/3;
+}
+.caja4{
+    grid-area: 1/5/2/3;
+}
+.caja5{
+    grid-area: 2/3/4/5;
+}
+footer{
+    margin: 5;
+    padding: 5px;
+    background:rgb(66, 66, 146);
+
+}
+.parra{
+    width: 60%;
+    text-align: justify;
+}
+
+.todo{
+    background-color:black;
+}
+.grid1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 5px;
+    border-radius: 50%;
+
+}
+.grid1 div{
+    background: rgb(51, 45, 85);
+   background: black;
+   column-gap: 1px;
+   row-gap: 5px;
+   padding: 5px;
+    border-spacing:   50%;
+}
+.grid1 div:hover{
+    border: 2px solid rgb(147, 106, 65);
+}
+.caja1{
+    grid-area: 1/1/1/1;
+}
+.caja2{
+    grid-area:1/2/1/2;
+}
+.caja3{
+    grid-area:1/3/1/3 ;
+}
+.caja4{
+    grid-area:1/4/1/4 ;
+}
+.caja5{
+    grid-area:1/5/1/5 ;
+}
+.caja6{
+    grid-area:1/6/1/6 ;
+}
+.caja7{
+    grid-area: 1/7/1/7;
+}
+.caja8{
+    grid-area: 1/8/1/8;
+}
+.caja9{
+    grid-area: 2/1/2/1;
+}
+.caja10{
+    grid-area: 2/2/2/2;
+}
+.caja11{
+    grid-area: 2/3/2/3;
+}
+.caja12{
+    grid-area: 2/4/2/4;
+}
+
+   
+   
+
+
+
